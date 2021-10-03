@@ -1,0 +1,102 @@
+*
+{
+    font-family: 'Century Gothic', Calibri, serif;
+    background-color: turquoise;
+}
+footer
+{
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 70%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 2%;
+      width: 100%;
+    }
+  }
+.exp
+{
+    margin-left: 2%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-size: larger;
+}
+.host
+{
+    margin-left: 2%;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.form
+{
+    margin-left: 2%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-size: larger;
+}
+.gif
+{
+    width: 645px;
+}
+.img
+{
+
+    background-color: turquoise;
+}
+.Name
+{
+    display: flex;
+    align-self: flex-end;
+    padding: 8px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+header
+{
+    display: flex;
+    background-color: turquoise;
+    flex-wrap: wrap;
+}
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: aquamarine;
+    max-width: 100%;
+    padding: 40px;
+    text-transform: uppercase;
+}
+a
+{
+    background-color: aquamarine;
+    text-decoration: none;
+}
+.accueil:hover{
+    background-color: lightcyan;
+}
+
+.xp:hover{
+    background-color: lightcyan;
+}
+
+.formation:hover{
+    background-color: lightcyan;
+}
+
+.skills:hover{
+    background-color: lightcyan;
+}
+
+.loisirs:hover{
+    background-color: lightcyan;
+}
+
