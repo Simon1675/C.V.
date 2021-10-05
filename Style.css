@@ -93,6 +93,14 @@ footer
     font-size: larger;
     margin-top: 2%;
 }
+.zone_texte
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: larger;
+    margin-top: 2%;
+}
 .link
 {
     margin-top: 7%;
