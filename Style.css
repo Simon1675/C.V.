@@ -99,7 +99,16 @@ footer
     flex-direction: column;
     justify-content: start;
     font-size: larger;
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-left: 3%;
+    padding: 0%;
+}
+.espace_commentaire
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: larger;
 }
 .link
 {
@@ -115,22 +124,25 @@ footer
     display: flex;
     width: 70px;
     height: 70px;
-    margin: 5%;
     flex-direction: column;
     justify-content: center;
 }
 .img
 {
     background-color: turquoise;
+    margin-left: 4%;
+    width: auto;
+    padding: 0%;
 }
 .Name
 {
     display: flex;
     align-self: flex-end;
-    padding: 8px;
+    padding: 0%;
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 0%;
+    margin-left: 3%;
 }
 header
 {
@@ -138,6 +150,7 @@ header
     background-color: turquoise;
     flex-direction: row;
     padding: 0%;
+    width: auto;
 }
 nav
 {
